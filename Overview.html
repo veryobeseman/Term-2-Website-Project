@@ -75,17 +75,13 @@
 			background-image: url('browny wall.jpg');
 		}
 		img{
-			border: 5px solid #FABE28;
-			box-shadow: 7.5px 7.5px 12.5px black ;
-			margin-left: 325px;
+			border: 20px solid black;
+			box-shadow: 7.5px 7.5px 12.5px black;
+			float: center;
+			margin-top: 5px;
+			margin-left: 260px;
 			margin-right: 150px;
-			width: 450px;
-		}
-		img.img2{
-			border: 10px solid #226b69;
-			margin-left: 150px;
-			margin-right: 150px;
-			width: 800px;
+			width: 550px;
 		}
 		img.img3{
 			border: 5px solid black;
@@ -194,6 +190,33 @@
 			padding: 20px;
 			text-align: center;
 		}
+		table, th, td {
+			border: 1px solid black; 
+			border-collapse: collapse; 
+		}
+		th, td {
+			text-align: center;
+			padding: 10px;
+		}
+		table {
+			box-shadow:	-5px 5px 10px black;
+			margin-right: 500px;
+			margin-left: 250px;
+			width: 400px;
+		}
+		th {
+			background-color: black;
+			color: white;
+		}
+		td:hover {
+			background-color: white;
+		}
+		tr:nth-child(even) {
+			background-color: #FFBF00;
+		}
+		tr:nth-child(odd) {
+			background-color: #6A00FF;
+		}
 		ul{
 			background-color: #0b108c;
 			border: 3px solid black;
@@ -229,23 +252,46 @@
   <li><a href="Gallery.html">Gallery</a></li>
 </ul>
 
-<img src="wolfenstein 3d.jpg"></img> 
+<img src="contra.jpg"></img> 
 
-<img class=img2 src="wolfenstein.jpg"></img>
+</div>
+
+<div>
 
 <h1>Overview</h1>  
 
 <img class=img3 src="nazi wreath.jpg"></img>
 
-<p class="paragraph1">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed pellentesque blandit cursus. Phasellus condimentum maximus volutpat. In dui odio, rutrum a ante non, tempor elementum purus. Sed eleifend varius vehicula. Aliquam a sodales lacus, sed euismod orci.</p>
+<p class="paragraph1">poopface</p>
 	
 <img class=img4 src="yelling hitler.jpg"></img>	
 
-<h2>Subheading 1!</h2>
+</div>
+
+<div>
+
+<h2>Platforms</h2>
 	
-<p class="paragraph2">Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque finibus aliquam odio. Morbi id tristique diam, sit amet semper ex. Nulla tincidunt massa ac urna tristique tempor non vitae lectus.</p>
+<table>
+			<tr>
+				<th>Season</th> <th>Team</th> 	<th>GP</th> 	<th>MIN</th> 	<th>FG%</th> 	<th>PPG</th> 	<th>AST</th>	<th>RB</th>		<th>BLK</th>  
+			</tr>
+			<tr>
+				<td>84-85</td> 	<td>LAL</td> 	<td>79</td> 	<td>33.3</td> 	<td>.599</td> 	<td>22.0</td> 	<td>3.2</td>	<td>7.9</td>	<td>2.1</td>
+			</tr>
+			<tr>
+				<td>85-86</td> 	<td>LAL</td> 	<td>79</td> 	<td>33.3</td> 	<td>.564</td> 	<td>23.4</td> 	<td>3.5</td>	<td>6.1</td>	<td>1.6</td>
+			</tr>
+			<tr>
+				<td>86-87</td> 	<td>LAL</td> 	<td>78</td> 	<td>31.3</td> 	<td>.564</td> 	<td>17.5</td> 	<td>2.6</td>	<td>6.7</td>	<td>1.2</td>
+			</tr>
+			<tr>
+				<td>87-88</td> 	<td>LAL</td> 	<td>80</td> 	<td>28.9</td> 	<td>.532</td> 	<td>14.6</td> 	<td>1.7</td>	<td>6.0</td>	<td>1.2</td>
+</table>
 
 <img class=img5 src="eagle.jpg"></img>	
+
+</div>
 
 <h2 class=h22>Subheading 2!</h2>
 	
@@ -281,10 +327,6 @@
 </ul> 
 
 <img class=img9 src="hitler.jpg"></img>
-
-<p class="paragraph5"><a href="https://en.wikipedia.org/wiki/Wolfenstein_3D">More information on the game!</a></p>
-
-</div>
 
 </body>
 

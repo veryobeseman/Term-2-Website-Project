@@ -1,0 +1,51 @@
+		a:link {
+			color: white;
+		}
+		
+		a:visited {
+			color: white;
+		}
+		h1{	
+			border: 3px solid black;
+			box-shadow: 5px 5px 10px black;
+			color: white;
+			font size: 200pt;
+			margin-left: 325px;
+			margin-right: 325px;
+			padding: 30px;
+			text-align: center;
+			text-shadow: 5px 5px 5px black;
+		}
+		li {
+			border-bottom: 2px solid grey;
+			text-align: center;
+		}
+		li a {
+			display: block;
+			text-decoration: none;
+		}
+		li a:hover:not(.current) {
+			background-color: grey;
+		} 
+		.current {
+			background-color: #095169;
+		}
+		ul{
+			background-color: #0b108c;
+			border: 3px solid black;
+			box-shadow: 7.5px 7.5px 12.5px black;
+			color: white;
+			font-size: 15pt;
+			margin-left: 415px;
+			margin-right: 415px;
+			padding: 20px;
+			text-align: center;
+		}
+		ul.vertical{
+			background-color: black;
+			border: 3px solid grey;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 200px;
+		}

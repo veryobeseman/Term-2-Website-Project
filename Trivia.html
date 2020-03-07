@@ -3,23 +3,15 @@
 <html>
 
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<title>Term 2 Website Project</title>
 	<style>
 	
-		a:link {
-			color: black;
-		}
-		
-		a:visited {
-			color: black;
-		}
-		
 		body{
-			background-image: url('waterfall.jpg')
+			background-image: url('stars.jpg');
 			background-repeat: no-repeat;
 			background-size: cover; 
-			background-color: #1693A5;
 			background-attachment: fixed;
 			background-position: center; 
 			color: white;
@@ -27,11 +19,11 @@
 			font-size: 50 pt;
 		}
 		div{
-			background-image: url('rocks.jpg');
-			border: 20px solid green;
+			background-image: url('ice.jpg');
+			border: 20px solid #69D2E7;
 			length: 2000px;
-			margin-left: 110px;
-			margin-right: 1000px;
+			margin-left: auto;
+			margin-right: auto;
 			margin-top: 200px; 
 			margin-bottom: 200px;
 			padding: 30px;
@@ -42,7 +34,8 @@
 			width: 800px;
 		}
 		div.d3{  
-			margin-right: 500px;
+			margin-left: 320px;
+			margin-right: 50px;
 			width: 800px;
 		}
 		div.d4{
@@ -54,116 +47,74 @@
 			width: 800px;
 		}
 		h1{	
-			background-image: url('blue wall.jpg');
+			background-image: url('trees.jpg');
 			border: 3px solid black;
-			box-shadow: 5px 5px 10px black;
-			color: white;
-			font size: 200pt;
-			margin-left: 325px;
-			margin-right: 325px;
-			padding: 30px;
-			text-align: center;
-			text-shadow: 5px 5px 5px black;
 		}
 		h2{	
-			background-image: url('stone wall 2.jpg');
+			background-image: url('tubes.jpg');
 			border: 3px solid black;
 			box-shadow: 10px 10px 12.5px black;
 			color: white;
-			margin-left: 375px;
-			margin-right: 375px;
+			margin-left: 125px;
+			margin-right: 125px;
 			padding: 40px;
 			text-align: center;
 			text-shadow: 5px 5px 5px black;
 		}
-		
-		h2.h22{ 
-			background-image: url('purple wall.jpg');
-		}
-		h2.h23{ 
-			background-image: url('stone wall 3.jpg');
-		}
-		h2.h24{ 
-			background-image: url('wood wall.jpg');
-		}
-		h2.h25{ 
-			background-image: url('browny wall.jpg');
-		}
 		img{
-			border: 10px solid green;
+			border: 10px solid blue;
 			box-shadow: 7.5px 7.5px 12.5px black ;
-			margin-left: 325px;
-			margin-right: 150px;
+			margin-left: 265px;
+			margin-right: 100px;
 			width: 550px;
 		}
 		img.img2{
-			border: 10px solid #226b69;
-			margin-left: 150px;
+			border: 10px solid blue;
+			margin-left: 165px;
 			margin-right: 150px;
-			width: 800px;
+			width: 450px;
 		}
 		img.img3{
-			border: 5px solid black;
-			float: left;
-			margin-left: 50px;
+			border: 3px solid blue;
+			margin-left:245px;
 			margin-right: 600px;
-			width: 200px;
+			width: 300px;
 		}
 		img.img4{
-			border: 5px solid black;
-			float: right;
+			border: 5px solid blue;
 			margin-left: 600px;
 			margin-right: 50px;
 			width: 200px;
 		}
 		img.img5{
-			border: 5px solid #343838;
-			float: left;
+			border: 5px solid blue;
 			margin-left: 50px;
 			margin-right: 600px;
 			width: 225px;
 		}
 		img.img6{
-			border: 5px solid grey;
-			float: right;
+			border: 5px solid blue;
 			margin-left: 600px;
 			margin-right: 50px;
 			width: 225px;
 		}
 		img.img7{
-			border: 5px solid red;
-			float: left;
-			margin-left: 50px;
+			border: 5px solid blue;
+			margin-left: 225px;
 			margin-right: 600px;
-			width: 225px;
+			width: 325px;
 		}
 		img.img8{
-			border: 5px solid #226b69;
-			float: right;
-			margin-left: 600px;
+			border: 5px solid blue;
+			margin-left: 450px;
 			margin-right: 50px;
-			width: 225px;
+			width: 275px;
 		}
 		img.img9{
-			border: 7.5px solid #FABE28;
-			float: left;
+			border: 5px solid blue;
 			margin-left: 50px;
 			margin-right: 600px;
-			width: 225px;
-		}
-		li {
-			border-bottom: 2px solid black;
-			text-align: center;
-		}
-		li a {
-			display: block;
-			text-decoration: none;
-		}
-		li a:hover:not(.current) {
-			background-color: #3B8686;
-		} 
-		.current {
-			background-color: grey;
+			width: 275px;
 		}
 		p{	
 			background-color: #0b108c;
@@ -171,32 +122,10 @@
 			box-shadow: 7.5px 7.5px 12.5px black;
 			color: white;
 			font-size: 15pt;
-			margin-left: 370px;
-			margin-right: 370px;
+			margin-left: 50px;
+			margin-right: 50px;
 			padding: 20px;
 			text-align: center;
-		}
-		p.paragraph1{
-		}
-		p.paragraph2{
-			margin-left: 390px;
-			margin-right: 390px;
-		}
-		
-		p.paragraph3{
-			margin-left: 380px;
-			margin-right: 380px;
-		}
-		
-		p.paragraph4{
-			margin-left: 420px;
-			margin-right: 420px;
-		}
-		p.paragraph5{
-			background-image: url('red brick wall 2.jpg');
-			margin-left: 400px;
-			margin-right: 400px;
-			padding: 10px;
 		}
 		ol{
 			background-color: #0b108c;
@@ -209,24 +138,6 @@
 			padding: 20px;
 			text-align: center;
 		}
-		ul{
-			background-color: #0b108c;
-			border: 3px solid black;
-			box-shadow: 7.5px 7.5px 12.5px black;
-			color: white;
-			font-size: 15pt;
-			margin-left: 415px;
-			margin-right: 415px;
-			padding: 20px;
-			text-align: center;
-		}
-		ul.vertical{
-			background-color: #0B2E59;
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			width: 175px;
-		}
 	
 	</style>
 	
@@ -236,6 +147,8 @@
 
 <div>
 
+<h1>Trivia</h1>  
+
 <ul class="vertical">
   <li><a href="Overview.html">Overview</a></li>
   <li><a href="Gameplay.html">Gameplay<a></li>
@@ -243,49 +156,55 @@
   <li><a href="Gallery.html">Gallery</a></li>
 </ul>
 
-<h1>Trivia</h1>  
-
-<img src="nicaragua.jpg"></img>
+<img src="rambo.jpg"></img>
 
 </div>
 
 <div class="d2">
 	
 <h2>The Actual Contra</h2>
-	
-<p class="paragraph2">yep</p>
 
-<img class=img5 src="eagle.jpg"></img>	
+<img class=img2 src="nicaragua.jpg"></img>	
+	
+<p class="paragraph2">Apart from the video game, the name “Contra” is often associated with a late twentieth century Nicaraguan military group of the same name (derived from la contrarrevolución, the Spanish for “the counter-revolution”) . Organized and funded by American President Ronald Reagan during the Cold War, their primary objective was to suppress the expansion of communism in their home country through battling with the Sandinistas (FSLN), a socialist party who had recently overthrown the government and its puppet dictator, Somoza. The most notable impact of the Contra was the damage it dealt to Reagan’s reputation after the Iran-Contra Affair, an incident which sparked widespread controversy when it was discovered that America was funding these soldiers through secret arms deals and profits from the Nicaraguan cocaine trade. The game, while not directly related, was released during the Iran-Contra Affair and reflects the actual Contra through the design of its “jungle” stage (similar to Nicaragua), the naming of its ending theme song as “Sandinista” (the enemy of the Contra), and the possible comparison of terrorist aliens with world-conquering ambitions to socialist revolutionaries. </p>
+
+<img class=img3 src="fsln.jpg"></img>	
 
 </div>
 
 <div class="d3">
 
 <h2>Pop Culture Inspirations</h2>
-	
-<p>yep</p>
 
-<img class=img6 src="wolfenstein face.jpg"></img>
+<img class=img4 src="predator.jpg"></img>
+
+<img class=img5 src="cover.jpg"></img>
+
+<img class=img6 src="alien.jpg"></img>
+	
+<p>Contra owes much of its success to the popular science-fiction films that its characters were based off of. These include Alien (1979), which influenced the design of the enemy aliens, Sylvester Stallone in the Rambo franchise, whom Lance is modeled after, and Arnold Schwarzenegger in Predator (1987), whom Bill is modeled after and whose poses in the movie shaped the cover art of the game’s packaging. </p>
 
 </div>
 
 <div class="d4">
 
 <h2>The KONAMI CODE</h2>
+
+<img class=img7 src="konami code.jpg"></img>
 	
-<p>yep</p>
-	
-<img class=img7 src="purple eagle.jpg"></img>
+<p>One of Contra’s most significant achievements was the popularization of the Konami code, the infamous cheat activated by entering a specific sequence of buttons on the NES controller. The reward for correctly putting in the code was thirty additional lives. Unfortunately, the creator of the Konami Code, Kazuhisa Hashimoto, has recently passed away (February 2020). </p>
 
 </div>
 
 <div class="d5">
 
 <h2>Different Editions</h2>
+
+<img class=img8 src="contraband.jpg"></img>
+
+<img class=img9 src="probotector.jpg"></img>
 	
-<p>yep</p>
-	
-<img class=img7 src="purple eagle.jpg"></img>
+<p>Contra was initially released in 1987 as a coin-operated arcade game, which only contained seven stages and imposed a time limit on the player. Additionally, the European version did not allow multiplayer gameplay. Regarding the NES, the graphics limitations of the popular Nintendo console resulted in the omission of the individual character designs of Bill and Lance, differentiating the two only by the colour of their pants. Contra also varied depending on region, as the Japanese, American, and PAL (Europe, Oceania, south Asia, eastern South America/Africa) versions all have subtle variations. These include the different settings of the Japanese and American editions (discussed in overview), as well as “Probotector,” the adaptation of the game for the PAL region, specifically for audiences in Germany who were not allowed access to the original game because of censorship laws. Probotector’s primary revision to Contra was applying a more robotic appearance (hence the name Probotector: Robot + Protector) to both the protagonists and the aliens to make the game less violent.</p>
 
 </div>
 	

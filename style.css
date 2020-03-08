@@ -5,7 +5,53 @@
 		a:visited {
 			color: white;
 		}
+		body{
+			background-image: url('stars.jpg');
+			background-repeat: no-repeat;
+			background-size: cover; 
+			background-attachment: fixed;
+			background-position: center; 
+			color: white;
+			font-family: 'Press Start 2P';
+			font-size: 50 pt;
+		}
+		div{
+			background-image: url('stone wall.jpg');
+			border-top: 25px solid #00B714;
+			border-right: 5px solid #402F18;
+			border-left: 5px solid #402F18;
+			border-bottom: 5px solid #402F18;
+			length: 2000px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 200px; 
+			margin-bottom: 200px;
+			padding: 30px;
+			width: 1100px;
+		}
+		div.d2{
+			margin-left: 35px;
+			width: 800px;
+		}
+		div.d3{  
+			margin-left: 380px;
+			margin-right: 35px;
+			width: 800px;
+		}
+		div.d4{
+			margin-left: 35px;
+			width: 800px;
+		}
+		div.blue{
+			background-image: url("blue.jpg");
+			border: none;
+			margin-right: 0px;
+			margin-left: 0px;
+			margin-bottom: 0px;
+			width: 1250px;
+		}
 		h1{	
+			background-image: url('mountains.jpg');
 			border: 3px solid black;
 			box-shadow: 5px 5px 10px black;
 			color: white;
@@ -15,6 +61,78 @@
 			padding: 30px;
 			text-align: center;
 			text-shadow: 5px 5px 5px black;
+		}
+		h2{	
+			background-image: url('leaves.jpg');
+			border: 3px solid black;
+			box-shadow: 10px 10px 12.5px black;
+			color: white;
+			margin-left: 125px;
+			margin-right: 125px;
+			padding: 40px;
+			text-align: center;
+			text-shadow: 5px 5px 5px black;
+		}
+		h2.h22{
+			margin-right: 225px;
+			margin-left: 225px;
+		}
+		h2.h23{
+			margin-right: 200px;
+			margin-left: 200px;
+		}
+		h2.link{ 
+			margin-right: 300px;
+			margin-left: 300px;
+		}
+		img{
+			border: 20px solid black;
+			box-shadow: 7.5px 7.5px 12.5px black;
+			float: center;
+			margin-top: 5px;
+			margin-left: 260px;
+			margin-right: 150px;
+			width: 550px;
+		}
+		img.img2{
+			border: 10px solid black;
+			margin-left: 165px;
+			margin-right: 600px;
+			width: 450px;
+		}
+		img.img3{
+			border: 3px solid black;
+			margin-top: 25px;
+			margin-left: 100px;
+			margin-right: 600px;
+			width: 150px;
+		}
+		img.img4{
+			border: 3px solid grey;
+			margin-left: 400px;
+			margin-right: 75px;
+			width: 300px;
+		}
+		img.img5{
+			border: 3px solid grey;
+			margin-left: 245px;
+			width: 300px;
+		}
+		img.img6{
+			border: 3px solid grey;
+			margin-left: 300px;
+			width: 200px;
+		}
+		img.img7{
+			border: 3px solid black;
+			margin-left: 50px;
+			margin-right: 610px;
+			width: 300px;
+		}
+		img.img8{
+			border: 3px solid black;
+			margin-left: 460px;
+			width: 300px;
 		}
 		li {
 			border-bottom: 2px solid grey;
@@ -28,6 +146,47 @@
 			background-color: grey;
 		} 
 		.current {
+			background-color: #095169;
+		}
+		p{	
+			background-color: black;
+			border: 3px solid grey;
+			box-shadow: 7.5px 7.5px 12.5px black;
+			color: grey;
+			font-size: 15pt;
+			margin-left: 50px;
+			margin-right: 50px;
+			padding: 20px;
+			text-align: center;
+		}
+		table, th, td {
+			border: 1px solid black; 
+			border-collapse: collapse; 
+		}
+		th, td {
+			text-align: center;
+			padding: 10px;
+		}
+		table {
+			border-top: 25px solid black;
+			border-bottom: 25px solid black;
+			border-right: 25px solid black;
+			border-left: 25px solid black;
+			box-shadow:	-5px 5px 10px black;
+			margin-left: 15px;
+			width: 100px;
+		}
+		th {
+			background-color: black;
+			color: white;
+		}
+		td:hover {
+			background-color: #C21A01;
+		}
+		tr:nth-child(even) {
+			background-color: #838689;
+		}
+		tr:nth-child(odd) {
 			background-color: #095169;
 		}
 		ul{
